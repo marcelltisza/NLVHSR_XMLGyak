@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konferencia>
+    <cim id="kn1b">Konferencia</cim>
+    <hallgatok>
+        <hallgato id="hlg1">
+            <nev>Lajos</nev>
+            <lakcim>Arany város Tégla utca 7.</lakcim>
+        </hallgato>
+    </hallgatok>
+    <helyszin id="hly1">Arany város Tégla utca 2.</helyszin>
+    <eloado id="eld1">
+        <nev>Katalin</nev>
+        <adoszam>0123456789</adoszam>
+        <lakcim>Arany város Beton utca 10.</lakcim>
+    </eloado>
+    <datum>2021.09.15</datum>
+</konferencia>
