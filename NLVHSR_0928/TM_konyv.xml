@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE konyvek SYSTEM "TM_konyv.dtd">
+
+<konyvek>
+	<konyv id="a1">
+		<cim>cim</cim>
+		<kiadasev>ev</kiadasev>
+		<kiado>kiado</kiado>
+		<szerzo>szerzo1</szerzo>	
+	</konyv>
+	<konyv id="s2">
+		<cim>cim</cim>
+		<kiadasev>ev</kiadasev>
+		<kiado>kiado</kiado>
+		<szerzo>szerzo1</szerzo>	
+	</konyv>
+	<konyv id="c3">
+		<cim>cim</cim>
+		<kiadasev>ev</kiadasev>
+		<kiado>kiado</kiado>
+		<szerzo>szerzo1</szerzo>	
+	</konyv>
+</konyvek>

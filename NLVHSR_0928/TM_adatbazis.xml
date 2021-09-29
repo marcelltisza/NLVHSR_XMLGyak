@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE adatbazis SYSTEM "TM_adatbazis.dtd">
+
+<adatbazis>
+	<dolgozo kod="alm3">
+		<nev>Jozsef</nev>
+		<fizetes>400000</fizetes>
+	</dolgozo>
+	<dolgozo kod="alm7">
+		<nev>Janos</nev>
+		<fizetes>300000</fizetes>
+	</dolgozo>
+</adatbazis>
