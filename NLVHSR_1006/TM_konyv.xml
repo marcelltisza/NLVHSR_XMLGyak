@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TM_konyv.xsd">
+	<konyv id="a1">
+		<cim>cim</cim>
+		<kiadasev>2000</kiadasev>
+		<kiado>kiado</kiado>
+		<szerzo>szerzo1</szerzo>	
+	</konyv>
+	<konyv id="s2">
+		<cim>cim</cim>
+		<kiadasev>2000</kiadasev>
+		<kiado>kiado</kiado>
+		<szerzo>szerzo1</szerzo>
+	</konyv>
+	<konyv id="c3">
+		<cim>cim</cim>
+		<kiadasev>2000</kiadasev>
+		<kiado>kiado</kiado>
+		<szerzo>szerzo1</szerzo>	
+	</konyv>
+</konyvek>

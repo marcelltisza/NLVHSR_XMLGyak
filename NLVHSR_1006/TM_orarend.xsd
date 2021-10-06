@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<element name="orarend">
+		<complexType>
+			<sequence>
+				<element name="ora" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="targy" type="string" />
+							<element name="idopont">
+								<complexType>
+									<sequence>
+										<element name="nap" type="string" />
+										<element name="tol" type="time" />
+										<element name="ig" type="time" />
+									</sequence>
+								</complexType>
+							</element>
+							<element name="helyszin" type="string" />
+							<element name="oktato" type="string" />
+							<element name="szak" type="string" />
+						</sequence>
+						<attribute name="id" type="ID" use="required" />
+						<attribute name="tipus" >
+							<simpleType>
+				              	<restriction base="string">
+				                	<enumeration value="eloadas" />
+				                	<enumeration value="gyakorlat" />
+				              	</restriction>
+		            		</simpleType>
+						</attribute>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<element name="minta">
+		<complexType>
+			<sequence>
+				<element name="A" maxOccurs="unbounded">
+					<complexType mixed="true">
+						<sequence>
+							<element name="B" type="string" />
+							<element name="C" type="string" />
+						</sequence>
+						<attribute name="a1" type="int"/>
+					</complexType>
+				</element>
+				
+				<element name="B" maxOccurs="unbounded">
+					<complexType mixed="true">
+						<attribute name="b1" type="int"/>
+					</complexType>
+				</element>
+				
+				<element name="AC">
+					<complexType mixed="true">
+						<attribute name="ac1" type="int"/>
+						<attribute name="ac2" type="int"/>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+		<key name="k1">
+			<selector xpath="A"/>
+			<field xpath="@c1"/>
+		</key>
+		<key name="k2">
+			<selector xpath="B"/>
+			<field xpath="@b1"/>
+		</key>
+		<keyref refer="k1" name="k11">
+			<selector xpath="AC"/>
+			<field xpath="@AC1"/>
+		</keyref>
+		<keyref refer="k2" name="k21">
+			<selector xpath="BC"/>
+			<field xpath="@BC1"/>
+		</keyref>
+	</element>
+</schema>

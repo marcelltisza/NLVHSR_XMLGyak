@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<element name="mozi">
+		<complexType>
+			<sequence>
+				<element name="film">
+					<complexType>
+						<sequence>
+							<element name="rendezo">
+								<complexType>
+									<attribute name="id" type="ID" use="required"/>
+									<attribute name="nev" type="string" use="required"/>
+								</complexType>
+							</element>
+							<element name="szinesz" maxOccurs="unbounded">
+								<complexType>
+									<attribute name="id" type="ID" use="required"/>
+									<attribute name="nev" type="string" use="required"/>
+								</complexType>
+							</element>
+							<element name="iro">
+								<complexType>
+									<attribute name="id" type="ID" use="required"/>
+									<attribute name="nev" type="string" use="optional"/>
+								</complexType>
+							</element>
+						</sequence>
+						<attribute name="id" type="ID" use="required"/>
+						<attribute name="mufaj" type="string" use="required"/>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

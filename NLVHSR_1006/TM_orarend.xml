@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  	 xsi:noNamespaceSchemaLocation="TM_orarend.xsd">
+    <ora id="ora1" tipus="eloadas">
+        <targy>Algoritmusok és vizsgálatuk</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>08:00:00</tol>
+            <ig>12:00:00</ig>
+        </idopont>
+        <helyszin>A3 313</helyszin>
+        <oktato>Házy Attila</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+    <ora id="ora2" tipus="eloadas">
+        <targy>Web technológiák I.</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>12:00:00</tol>
+            <ig>14:00:00</ig>
+        </idopont>
+        <helyszin>A1 305</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+    <ora id="ora3" tipus="eloadas">
+        <targy>Mesterséges intelligencia alapok</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>14:00:00</tol>
+            <ig>17:00:00</ig>
+        </idopont>
+        <helyszin>XXXII.</helyszin>
+        <oktato>Dudás László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+    <ora id="ora4" tipus="gyakorlat">
+        <targy>Web technológiák</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>17:00:00</tol>
+            <ig>19:00:00</ig>
+        </idopont>
+        <helyszin>In. 101</helyszin>
+        <oktato>kunné Tamás Judit</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+    <ora id="ora5" tipus="eloadas">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12:00:00</tol>
+            <ig>14:00:00</ig>
+        </idopont>
+        <helyszin>I.</helyszin>
+        <oktato>Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+    <ora id="ora6" tipus="gyakorlat">
+        <targy>Mesterséges intelligencia alapok</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>09:00:00</tol>
+            <ig>10:00:00</ig>
+        </idopont>
+        <helyszin>In. 15</helyszin>
+        <oktato>Dudás László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+    <ora id="ora7" tipus="gyakorlat">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>10:00:00</tol>
+            <ig>12:00:00</ig>
+        </idopont>
+        <helyszin>In. 202</helyszin>
+        <oktato>Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+    <ora id="ora8" tipus="eloadas">
+        <targy>Vállalati információs rendszerek fejlesztése</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>16:00:00</tol>
+            <ig>20:00:00</ig>
+        </idopont>
+        <helyszin>In. 103</helyszin>
+        <oktato>Dr. Sasvári Péter László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+</orarend>

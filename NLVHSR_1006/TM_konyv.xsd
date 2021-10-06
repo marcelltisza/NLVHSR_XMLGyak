@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+		
+<element name="konyvek">
+	<complexType>
+		<sequence>
+			<element name="konyv" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="cim" type="string" />
+						<element name="kiadasev" type="unsignedShort" />
+						<element name="kiado" type="string" />
+						<element name="szerzo" type="string" />
+						<element name="absztrakt" type="string" minOccurs="0" />
+					</sequence>
+					<attribute name="id" type="string" use="required"/>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</element>
+
+</schema>
