@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  	 		xsi:noNamespaceSchemaLocation="TM_nevjegykartya.xsd">
+	<nevjegykartya id="a2">
+		<nev>xy</nev>
+		<ceg>
+			<nev>xyz</nev>
+			<cim>
+				<iranyitoszam>3233</iranyitoszam>
+				<varos>varos1</varos>
+				<utca>utca1</utca>
+				<hazszam>43</hazszam>
+			</cim>
+			<telefonszam>tel2</telefonszam>
+			<weblap>www.valami.com</weblap>
+		</ceg>
+		<beosztas>beosztas1</beosztas>
+		<telefonszam>tel1</telefonszam>
+		<email>valami@gmail.com</email>
+	</nevjegykartya>
+	<nevjegykartya id="a3">
+		<nev>abc</nev>
+		<ceg>
+			<nev>xyz</nev>
+			<cim>
+				<iranyitoszam>3233</iranyitoszam>
+				<varos>varos1</varos>
+				<utca>utca1</utca>
+				<hazszam>43</hazszam>
+			</cim>
+			<telefonszam>tel2</telefonszam>
+			<weblap>www.valami.com</weblap>
+		</ceg>
+		<beosztas>beosztas2</beosztas>
+		<telefonszam>tel2</telefonszam>
+		<email>valami2@gmail.com</email>
+	</nevjegykartya>
+</nevjegykartyak>

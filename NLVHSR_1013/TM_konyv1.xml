@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  	 xsi:noNamespaceSchemaLocation="TM_konyv1.xsd">
+	<konyv isbn="adssad">
+		<cim>cim1</cim>
+		<szerzo>szerzo1</szerzo>
+		<szereplo id="s1">
+			<nev>Adam</nev>
+			<baratja>Kati</baratja>
+			<szuletett>1990-12-12</szuletett>
+			<jellemzes>jellemzok</jellemzes>
+		</szereplo>
+		<szereplo id="s2">
+			<nev>Kati</nev>
+			<baratja>Adam</baratja>
+			<szuletett>1987-10-01</szuletett>
+			<jellemzes>jellemzok</jellemzes>
+		</szereplo>
+	</konyv>
+</konyvek>
