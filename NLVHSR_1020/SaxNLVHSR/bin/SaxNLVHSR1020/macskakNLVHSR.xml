@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <!DOCTYPE macskak SYSTEM "macskakNLVHSR.dtd"> -->
+
+<macskak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  	 xsi:noNamespaceSchemaLocation="macskakNLVHSR.xsd">
+	<macska id="m1">
+		<nev>Virgonc</nev>
+		<kor>3</kor>
+		<fajta>perzsa</fajta>
+	</macska>
+	<macska id="m2">
+		<nev>Günter</nev>
+		<kor>8</kor>
+		<fajta>bengáli</fajta>
+	</macska>
+	<macska id="m3">
+		<nev>Kazimir</nev>
+		<kor>1</kor>
+		<fajta>sziámi</fajta>
+	</macska>
+</macskak>
