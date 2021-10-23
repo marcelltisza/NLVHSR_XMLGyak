@@ -1,0 +1,8 @@
+<!ELEMENT macskak (macska*)>
+
+	<!ELEMENT macska (nev, kor, fajta)>
+	<!ATTLIST macska id ID #REQUIRED>
+		
+		<!ELEMENT nev (#PCDATA)>
+		<!ELEMENT kor (#PCDATA)>
+		<!ELEMENT fajta (#PCDATA)>
