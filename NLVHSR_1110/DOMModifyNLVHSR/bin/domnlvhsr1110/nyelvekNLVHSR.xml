@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<nyelvek>
+        	
+    
+    <szerver_nyelvek ceg="Oracle">
+                		
+        
+        <nyelv_neve tipus="Java">OOP</nyelv_neve>
+                		
+        
+        <nyelv_neve tipus="MongoDB">Document-oriented DB</nyelv_neve>
+                	
+    
+    </szerver_nyelvek>
+        	
+	
+    
+    <kliens_nyelvek ceg="W3C">
+                		
+        
+        <nyelv_neve>HTML</nyelv_neve>
+                		
+        
+        <nyelv_neve>JSON</nyelv_neve>
+                		
+        
+        <nyelv_neve>Chrome</nyelv_neve>
+                	
+    
+    </kliens_nyelvek>
+        
+
+</nyelvek>
