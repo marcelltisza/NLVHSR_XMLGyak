@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users xmlns="domnlvhsr">
+    <user id="1">
+        <firstname>Kiss</firstname>
+        <lastname>Pal</lastname>
+        <profession>programmer</profession>
+    </user>
+    <user id="2">
+        <firstname>Zold</firstname>
+        <lastname>Piroska</lastname>
+        <profession>writer</profession>
+    </user>
+    <user id="3">
+        <firstname>Gordon</firstname>
+        <lastname>Alma</lastname>
+        <profession>teacher</profession>
+    </user>
+</users>
